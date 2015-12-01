@@ -1,0 +1,171 @@
+html
+{
+background-color:white;
+}
+
+body
+{
+	max-width:1058px;
+	font-size: 100.01%; /* umgeht den Font-Size-Bug im Safari, älteren Operas und IE */
+	font-family: verdana, arial, sans-serif ;
+	
+	padding:0;
+	margin:0;
+	
+	
+}
+
+.site
+{
+	display:inline-block;
+	width:100%;
+	max-width:1080px;
+	border:none;
+	padding:0;
+	
+}
+
+.site aside
+{
+	
+	float:left;
+	width:24.5%;;
+
+}
+
+.logo
+{
+	
+}
+
+#menue
+{
+	background-color:lightgray;
+}
+
+.menue_punkte
+{
+	text-align:center;
+	padding:2%;
+	margin:2%;
+}
+
+
+a
+{
+	text-align:center;
+	list-style:none;
+	text-decoration:none;
+}
+
+#menue_punkte:hover
+{
+	
+	cursor:pointer;
+}
+
+.site article
+{
+	width:71.3%; 
+	float:right;
+	text-align:center;
+	border:none;
+	height:100%;
+	padding:2%;
+	
+	
+}
+
+#picture
+{
+	padding-top:1%;
+	text-align:center;
+	width:100%;
+	display:inline-block;
+	border-bottom-style:solid;
+	border-color:orange;
+}
+
+.pic
+{
+	float:left; 
+	width:30%;
+	margin:1%;
+}
+
+#zwischenbalken
+{
+	background-color:;
+	height:1em;
+	width:100%;
+	margin-top:2em;
+}
+
+#seite
+{
+	
+}
+
+.angebote
+{
+	display:inline-block;
+ background-color:lightgray;
+ height:100%;
+ width:80%;
+ margin-top:4%;
+}
+
+.angebote_bild
+{
+	float:left;
+	display:inline;
+}
+
+.text
+{
+	text-align:center;
+	
+}
+
+.table_oben
+{
+margin:auto;
+width:100%;
+}
+
+.th_oben
+{
+border-bottom:1px solid lightgray;
+}
+
+td
+{
+	
+}
+
+.beschr
+{
+	margin:auto;
+	padding-top:5%;
+	padding-bottom:5%;
+	color:orange;
+	font-weight:bold;
+}
+
+
+.table_unten
+{
+	margin:auto;
+	border:1px solid lightgray;
+	width:100%;
+	border-radius:5px;
+	margin-bottom:1%;
+	background-color:lightgray;
+}
+
+.th_unten
+{
+	padding:1%;
+}
+
+
