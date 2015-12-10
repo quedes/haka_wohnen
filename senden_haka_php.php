@@ -9,6 +9,7 @@ $empfaenger = "HaKa-Wohnen@t-online.de";
 $betreff = $_POST['betreff'];
 $from .= $_POST['mail'];
 $text = $_POST['nachricht'];	
+$text = htmlentities($text);
 $from = $from;
 
 mail($empfaenger, $betreff, $text, $from);
