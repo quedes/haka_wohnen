@@ -1,19 +1,28 @@
 <?php
 
-
-if($_POST['mail']!="" and $_POST['betreff']!="" and $_POST['nachricht']!="") 
+if(isset($_GET['mail']) and isset($_GET['betreff']) and isset($_GET['nachricht'])) 
 {
 header("Location: http://stream-vorschlag.de/main_haka_kontakt.html");
 
-$empfaenger = "HaKa-Wohnen@t-online.de";
+$empfaenger = "knecht1989@aol.com";
+
 $betreff = $_POST['betreff'];
-$from .= $_POST['mail'];
+$betreff = htmlentities($betreff);
+
+$from = $_POST['mail'];
+$from = htmlentities($from);
+
+
 $text = $_POST['nachricht'];	
 $text = htmlentities($text);
-$from = $from;
 
-mail($empfaenger, $betreff, $text, $from);
-
+/*Prüft DNS Einträge auf Übereinstimmung mit IP-Adresse*/
+ if(checkdnsrr($from,’MX’))
+ {
+	mail($empfaenger, $betreff, $text, $from);
+ }
+ 
+ 
 }
 
 
