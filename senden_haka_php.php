@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_GET['mail']) and isset($_GET['betreff']) and isset($_GET['nachricht'])) 
+if(isset($_POST['mail']) and isset($_POST['betreff']) and isset($_POST['nachricht'])) 
 {
 header("Location: http://stream-vorschlag.de/main_haka_kontakt.html");
 
