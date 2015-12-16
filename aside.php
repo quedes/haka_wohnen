@@ -1,6 +1,6 @@
 <?php
-
-echo "<aside>
+<html>
+	<aside>
 	<div class='logo'>
 		<img src='/img/haka_wohnen_logo.png'></img>
 	</div>
@@ -32,9 +32,9 @@ echo "<aside>
 			</a>
 		</div>
 	</div>
-</aside>";
+</aside>
 
 
-
+</html>
 
 ?>
