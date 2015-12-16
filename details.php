@@ -12,7 +12,7 @@ else
 
 /* Verbindung zum Server*/
 		
-$db = mysql_connect("localhost:3306","web275","webhostingpartei42");
+$db = mysql_connect("","","");
 mysql_set_charset("utf8", $db);
 if($db)
 {
