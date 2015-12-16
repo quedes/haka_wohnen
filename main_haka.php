@@ -1,4 +1,4 @@
-<?php
+
 	
 <html>
 	
@@ -50,4 +50,4 @@ Warum tun wir das? Weil in dem uns anvertrauten Erbe im Herzen von Gotha wieder 
 	
 		
 </html>
-?>
+
