@@ -1,5 +1,5 @@
 <?php
-<html>
+
 	<aside>
 	<div class='logo'>
 		<img src='/img/haka_wohnen_logo.png'></img>
@@ -35,6 +35,5 @@
 </aside>
 
 
-</html>
 
 ?>
