@@ -3,9 +3,10 @@
 	
 	</head>
 			<title>Willkommen</title>
+			<meta charset="utf-8">
+			<link href ="main_haka_layout.css" rel="stylesheet"/>
 	</head>
 	
-	<link href ="main_haka_layout.css" rel="stylesheet"/>
 	
 <body>
 
