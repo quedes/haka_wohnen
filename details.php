@@ -2,7 +2,7 @@
 
 if (isset($_GET["pam"]))
 {
-	$pam = $_GET["pam"];
+	$pam = mysql_real_escape_string($_GET["pam"]);
 }
 
 else
