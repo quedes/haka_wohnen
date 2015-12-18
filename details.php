@@ -3,6 +3,7 @@
 if (isset($_GET["pam"]))
 {
 	$pam = mysql_real_escape_string($_GET["pam"]);
+	$pam = htmlentities($pam);
 }
 
 else
@@ -44,14 +45,17 @@ if($db)
 			
 			else
 			{
-				echo $picone;
+				echo "";
 			}
 			
 	echo "</div>";
 	/*Preis,Zimmer, Fläche*/
 	$preis = $list[0] ["preis"];
+	$preis = htmlentities($preis);
 	$zimmer = $list[0] ["zimmer"];
+	$zimmer= htmlentities($zimmer);
 	$flaeche = $list[0] ["flaeche"];
+	$flache = htmlentities($flaeche);
 	
 	echo "<table class=\"table_oben\">";
 		echo "<tr>";
@@ -69,46 +73,53 @@ if($db)
 	
 	/*Kurzbeschreibung*/
 	$beschreibung = $list[0] ["beschreibung"];
+	$beschreibung = htmlentities($beschreibung);
 	
 	echo "<div class=\"beschr\">";
 		echo $beschreibung;
 	echo "</div>";
 	
 	/*Ausstattung Küche,Bad,Boden*/
-	$austattung_kueche = $list[0] ["kueche"];
-	$austattung_bad = $list[0] ["bad"];
+	$ausstattung_kueche = $list[0] ["kueche"];
+	$ausstattung_kueche = htmlentities($ausstattung_kueche);
+	$ausstattung_bad = $list[0] ["bad"];
+	$ausstattung_bad = htmlentities($ausstattung_bad);
 	$austattung_boden = $list[0] ["boden"];
+	$ausstattung_boden = htmlentities($ausstattung_boden);
 	
 	echo "<table class=\"table_unten\">";
-		if($austattung_kueche !='')
+		if($ausstattung_kueche !='')
 		{
 		echo "<tr>";
 			echo "<th>Küche</th>";
-			echo "<td>$austattung_kueche</td>";
+			echo "<td>$ausstattung_kueche</td>";
 		echo "</tr>";
 		}
 		
-		if($austattung_bad !='')
+		if($ausstattung_bad !='')
 		{
 		echo "<tr>";
 			echo "<th>Bad</th>";
-			echo "<td>$austattung_bad</td>";
+			echo "<td>$ausstattung_bad</td>";
 		echo "</tr>";
 		}
 		
-		if($austattung_boden !='')
+		if($ausstattung_boden !='')
 		{
 		echo "<tr>";
 			echo "<th>Boden</th>";
-			echo "<td>$austattung_boden</td>";
+			echo "<td>$ausstattung_boden</td>";
 		echo "</tr>";
 		}
 	echo "</table>";
 	
 	/*Energieausweis,Heizungsart,Restaurierung,*/
 	$energie = $list[0] ["energieausweis"];
+	$energie = htmlentities($energie);
 	$heizung = $list[0] ["heizung"];
+	$heizung = htmlentities($heizung);
 	$restaurierung = $list[0] ["restaurierung"];
+	$restaurierung = htmlentities($restaurierung);
 	
 	echo "<table class=\"table_unten\">";
 		if($energie !='')
@@ -139,8 +150,11 @@ if($db)
 	
 	/*Kalt,Warm,Kaution*/
 	$kalt = $list[0] ["kalt"];
+	$kalt = htmlentities($kalt);
 	$warm = $list[0] ["warm"];
+	$warm = htmlentities($warm);
 	$kaution = $list[0] ["kaution"];
+	$kaution = htmlentities($kaution);
 	
 	echo "<table class=\"table_unten\">";
 		if($kalt !='')
@@ -170,9 +184,11 @@ if($db)
 	/*etage, garage*/
 	
 	$etage = $list[0] ["etage"];
+	$etage = htmlentities($etage);
 	$garage = $list[0] ["garage"];
+	$garage = htmlentities($garage);
 	$sonstiges = $list[0] ["sonstiges"];
-	
+	$sonstiges = htmlentities($sonstiges);
 	echo "<table class=\"table_unten\">";
 		if($etage !='')
 		{
