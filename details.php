@@ -31,7 +31,7 @@ if($db)
 		$list[] = $row;
 	}
 	
-	/*Bilder für Slideshow*/
+	/*Bilder für Slideshow - in Planung*/
 	$pic = $list[0] ["wohnung"];
 	
 	$picone = "img/" . $pic . ".jpg";
@@ -203,6 +203,7 @@ if($db)
 		echo "<input style=\"background-color:orange\" type=\"submit\" value=\" &#9993 Nachricht senden\" />";
 	echo "</form>";
 		
+		mysql_close();
 		}
 
 
@@ -218,5 +219,7 @@ else
 {
 	echo "Fehler, keine Datenverbindung!";
 }
+
+
 
 ?>
