@@ -1,5 +1,5 @@
 <?php
-header("");
+header("main_haka_kontakt.php");
 
 /*Funktion prüft Korrekte Struktur der email-adresse*/
 function check_email($email) {
