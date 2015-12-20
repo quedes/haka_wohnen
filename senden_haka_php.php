@@ -1,5 +1,5 @@
 <?php
-header("main_haka_kontakt.php");
+header(Location: "main_haka_kontakt.php");
 
 
 
