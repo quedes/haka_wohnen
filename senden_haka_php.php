@@ -1,5 +1,5 @@
 <?php
-header("Location: http://stream-vorschlag.de/main_haka_kontakt.php");
+header("");
 
 /*Funktion prüft Korrekte Struktur der email-adresse*/
 function check_email($email) {
