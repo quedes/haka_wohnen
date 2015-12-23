@@ -18,9 +18,9 @@
 <article>
 
 	<div id="picture">
-		<img class="pic" src="/img/gotha_zwei_klein.jpg"></img>
-		<img class="pic" src="/img/gotha_eins_klein.jpg"></img>
-		<img class="pic" src="/img/gotha_drei_klein.jpg"></img>
+		<img class="pic" src="img/gotha_zwei_klein.jpg"></img>
+		<img class="pic" src="img/gotha_eins_klein.jpg"></img>
+		<img class="pic" src="img/gotha_drei_klein.jpg"></img>
 	</div>
 	
 	<div id="zwischenbalken">

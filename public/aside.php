@@ -1,6 +1,6 @@
 <aside>
 	<div class='logo'>
-		<img src='/img/haka_wohnen_logo.png'></img>
+		<img src='img/haka_wohnen_logo.png'></img>
 	</div>
 	
 	<div id='menue'>
