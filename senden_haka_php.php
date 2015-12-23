@@ -1,5 +1,6 @@
 <?php
-header(Location: "main_haka_kontakt.php");
+//header(Location: "main_haka_kontakt.php");
+header("Location: http://localhost/haka_wohnen_de/haka_wohnen/main_haka_kontakt.php");
 
 
 

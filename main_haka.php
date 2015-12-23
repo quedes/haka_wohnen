@@ -1,4 +1,6 @@
-
+<?php
+header("Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self'; form-data 'self'; img-src 'self';");
+?>
 	
 <html>
 	

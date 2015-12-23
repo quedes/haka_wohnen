@@ -27,10 +27,8 @@ body
 
 .site aside
 {
-	
 	float:left;
 	width:24.5%;;
-
 }
 
 .logo
@@ -38,9 +36,12 @@ body
 	
 }
 
-#menue
-{
+#menue {
 	background-color:lightgray;
+}
+#menue > div {
+  padding-bottom: 100%;
+  padding-top: 5%;
 }
 
 .menue_punkte
@@ -49,7 +50,22 @@ body
 	padding:2%;
 	margin:2%;
 }
-
+#home_menue_btn {
+  background-color: black;
+  color: white;
+}
+#angebot_menue_btn {
+  background-color: white;
+  color: black;
+}
+#kontakt_menue_btn {
+  background-color: white;
+  color: black;
+}
+#impressum_menue_btn {
+  background-color: orange;
+  color: black;
+}
 
 a
 {
@@ -103,7 +119,9 @@ a
 
 #seite
 {
-	
+	text-align: left;
+  margin: auto;
+  width: 80%;
 }
 
 .angebote
@@ -168,4 +186,38 @@ td
 	padding:1%;
 }
 
+table {
+  border-collapse: collapse;
+}
+td {
+  white-space:nowrap;
+}
+td span {
+  font-weight: bold;
+}
+td:last-child input {
+  width: 100%;
+}
+td:last-child {
+  width: 100%;
+}
 
+#error_msgs {
+  text-align: center;
+}
+.error_msg {
+  display: none;
+  color: #E60000;
+}
+
+#kontakt_msg {
+  margin: 2em auto;
+  width: 100%;
+}
+
+#button_div {
+  text-align: center;
+}
+#button_div > input {
+  padding: 0.5em 1em;
+}

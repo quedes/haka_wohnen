@@ -1,13 +1,13 @@
-
+<?php
+header("Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self'; form-data 'self'; img-src 'self';");
+?>
 	
 <html>
-	
 	<head>
 			<title>Willkommen</title>
 			<link href ="main_haka_layout.css" rel="stylesheet"/>
 			<meta charset="utf-8">
 	</head>
-	
 	
 	
 <body>
