@@ -5,7 +5,7 @@
 	
 	<div id='menue'>
 		<div>
-			<a href='main_haka.php'>
+			<a href='index.php'>
 			<div id="home_menue_btn" class='menue_punkte'>
 				Home
 			</div>
