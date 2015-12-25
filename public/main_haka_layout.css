@@ -205,9 +205,17 @@ td:last-child {
 #error_msgs {
   text-align: center;
 }
+.success_msg {
+  color: #00E600;
+}
 .error_msg {
-  display: none;
   color: #E60000;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
 }
 
 #kontakt_msg {

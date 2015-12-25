@@ -20,6 +20,7 @@ if($db)
 	/*mysql_select_db("web275_db1");*/
 	mysql_select_db("web275_db1");
 	
+  // TODO SQL injection might still be possible
 	$abfrage = "SELECT * FROM haka_wohnen WHERE ind = '$pam'";
 	$ergebnis = mysql_query($abfrage);
 	
@@ -33,7 +34,7 @@ if($db)
 	}
 	
 	/*Bilder für Slideshow - in Planung*/
-	$pic = $list[0] ["wohnung"];
+	$pic = htmlentities( $list[0] ["wohnung"] );
 	
 	$picone = "img/" . $pic . ".jpg";
 	
