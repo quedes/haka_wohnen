@@ -1,51 +1,41 @@
-html
-{
-background-color:white;
+html, body {
+  margin: 0px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
-body
-{
-	max-width:1058px;
-	font-size: 100.01%; /* umgeht den Font-Size-Bug im Safari, älteren Operas und IE */
-	font-family: verdana, arial, sans-serif ;
-	
-	padding:0;
-	margin:0;
-	
-	
-}
-
-.site
-{
-	display:inline-block;
+.site {
 	width:100%;
-	max-width:1080px;
 	border:none;
-	padding:0;
-	
+	padding: 0;
 }
 
-.site aside
-{
-	float:left;
-	width:24.5%;;
+.site aside {
+  position: fixed;
+	float: left;
+	width: 20%;
+  height: 100%;
 }
 
-.logo
-{
-	
+#logo {
+  width: 100%;
+  text-align: center;
+}
+#logo img {
+  width: 100%;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 #menue {
-	background-color:lightgray;
+	background-color: lightgray;
+  height: 100%;
 }
 #menue > div {
-  padding-bottom: 100%;
+  padding-bottom: 5%;
   padding-top: 5%;
 }
 
-.menue_punkte
-{
+.menue_punkte {
 	text-align:center;
 	padding:2%;
 	margin:2%;
@@ -67,51 +57,39 @@ body
   color: black;
 }
 
-a
-{
+a {
 	text-align:center;
 	list-style:none;
 	text-decoration:none;
 }
 
-#menue_punkte:hover
-{
-	
+#menue_punkte:hover {
 	cursor:pointer;
 }
 
-.site article
-{
-	width:71.3%; 
-	float:right;
+.site article {
+  position: absolute;
+  left: 20%;
 	text-align:center;
 	border:none;
-	height:100%;
-	padding:2%;
-	
-	
 }
 
-#picture
-{
+#picture {
 	padding-top:1%;
 	text-align:center;
-	width:100%;
+	width: 100%;
 	display:inline-block;
 	border-bottom-style:solid;
 	border-color:orange;
 }
 
-.pic
-{
-	float:left; 
-	width:30%;
+.pic {
+  min-width: 150px;
+	width:20%;
 	margin:1%;
 }
 
-#zwischenbalken
-{
-	background-color:;
+#zwischenbalken {
 	height:1em;
 	width:100%;
 	margin-top:2em;
@@ -124,45 +102,33 @@ a
   width: 80%;
 }
 
-.angebote
-{
-	display:inline-block;
- background-color:lightgray;
- height:100%;
- width:80%;
- margin-top:4%;
+.angebote {
+  display: inline-block;
+ background-color: lightgray;
+ height: 100%;
+ width: 80%;
+ margin-top: 4%;
 }
 
-.angebote_bild
-{
-	float:left;
-	display:inline;
+.angebote_bild {
+	float: left;
+	display: inline;
 }
 
-.text
-{
-	text-align:center;
-	
+.text {
+	text-align: center;
 }
 
-.table_oben
-{
-margin:auto;
-width:100%;
+.table_oben {
+  margin:auto;
+  width:100%;
 }
 
-.th_oben
-{
-border-bottom:1px solid lightgray;
+.th_oben {
+  border-bottom: 1px solid lightgray;
 }
 
-td
-{
-	
-}
-
-.beschr
-{
+.beschr {
 	margin:auto;
 	padding-top:5%;
 	padding-bottom:5%;
@@ -171,8 +137,7 @@ td
 }
 
 
-.table_unten
-{
+.table_unten {
 	margin:auto;
 	border:1px solid lightgray;
 	width:100%;
@@ -181,8 +146,7 @@ td
 	background-color:lightgray;
 }
 
-.th_unten
-{
+.th_unten {
 	padding:1%;
 }
 

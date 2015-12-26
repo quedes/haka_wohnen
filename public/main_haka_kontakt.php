@@ -1,5 +1,10 @@
 <?php
-header("Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self'; form-data 'self'; img-src 'self';");
+header("Content-Security-Policy: default-src 'none'; "
+        ."script-src 'self' http://www.google-analytics.com/analytics.js; "
+        ."style-src 'self'; "
+        ."form-action 'self'; "
+        ."img-src 'self' http://www.google-analytics.com/collect;"
+      );
 ?>
 
 <?php
@@ -38,13 +43,13 @@ if ($isValid_betreff && $isValid_from && $isValid_text) {
 
 <!DOCTYPE html>
 <html>
-  </head>
-    <title>Willkommen</title>
-    <meta charset="utf-8">
-    <link href ="main_haka_layout.css" rel="stylesheet"/>
-    <script type="text/javascript" src="form_validation.js"></script>
 </head>
-	
+  <title>Willkommen</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href ="main_haka_layout.css" rel="stylesheet"/>
+  <script type="text/javascript" src="form_validation.js" async></script>
+  <script type="text/javascript" src="analytics.js" async></script>
+</head>
 <body>
 
 <div class="site">

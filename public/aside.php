@@ -1,5 +1,5 @@
 <aside>
-	<div class='logo'>
+	<div id='logo'>
 		<img src='img/haka_wohnen_logo.png'></img>
 	</div>
 	

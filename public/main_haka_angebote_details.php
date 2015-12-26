@@ -1,14 +1,18 @@
+<?php
+header("Content-Security-Policy: default-src 'none'; "
+        ."script-src 'self' http://www.google-analytics.com/analytics.js; "
+        ."style-src 'self'; "
+        ."img-src 'self' http://www.google-analytics.com/collect;"
+      );
+?>
 
-	
+<!DOCTYPE html>
 <html>
-	
-	<head>
-			<title>Willkommen</title>
-			<meta charset="utf-8">
-			<link href ="main_haka_layout.css" rel="stylesheet"/>
-	</head>
-	
-	
+<head xmlns="http://www.w3.org/1999/xhtml">
+  <title>Willkommen</title>
+  <link href ="main_haka_layout.css" rel="stylesheet"/>
+  <script type="text/javascript" src="analytics.js" async></script>
+</head>
 <body>
 
 <div class="site">
@@ -22,7 +26,6 @@
 		<img class="pic" src="img/gotha_eins_klein.jpg"></img>
 		<img class="pic" src="img/gotha_drei_klein.jpg"></img>
 	</div>
-	
 	<div id="zwischenbalken">
 	</div>
 
@@ -37,12 +40,6 @@
 
 </div>
 
-
 </body>
-
-
-
-	
-		
 </html>
 
