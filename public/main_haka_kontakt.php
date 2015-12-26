@@ -71,13 +71,13 @@ if ($isValid_betreff && $isValid_from && $isValid_text) {
     <p class="success_msg <?php echo (($isMsgSent) ? "show" : "hide"); ?>" id="success_msg">
       Ihre Nachricht wurde erfolgreich gesendet.
     </p>
-    <p class="error_msg <?php echo (($isValid_from) ? "hide" : "show"); ?>" id="email_error_msg">
+    <p class="error_msg <?php echo ((isset($_POST['email']) && $isValid_from) ? "show" : "hide"); ?>" id="email_error_msg">
       Die von Ihnen angegebene Email-Adresse ist fehlerhaft.
     </p>
-    <p class="error_msg <?php echo (($isValid_betreff) ? "hide" : "show"); ?>" id="subject_error_msg">
+    <p class="error_msg <?php echo ((isset($_POST['betreff']) && $isValid_betreff) ? "show" : "hide"); ?>" id="subject_error_msg">
       Bitte geben Sie einen Betreff an.
     </p>
-    <p class="error_msg <?php echo (($isValid_text) ? "hide" : "show"); ?>" id="msg_error_msg">
+    <p class="error_msg <?php echo ((isset($_POST['nachricht']) && $isValid_text) ? "show" : "hide"); ?>" id="msg_error_msg">
       Ihre Nachricht ist leer.
     </p>
   </div>
