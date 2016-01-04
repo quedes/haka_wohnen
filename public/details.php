@@ -1,13 +1,9 @@
 <?php
 
-if (isset($_GET["pam"]))
-{
+if (isset($_GET["pam"])) {
 	$pam = mysql_real_escape_string($_GET["pam"]);
 	$pam = htmlentities($pam);
-}
-
-else
-{
+} else {
 	$pam = "1";
 }
 

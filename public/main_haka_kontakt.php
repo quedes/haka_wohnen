@@ -35,7 +35,7 @@ if (isset($_POST['nachricht'])) {
 }
 
 if ($isValid_betreff && $isValid_from && $isValid_text) {
-  $empfaenger = "hakawohnen@gmail.com";
+  $empfaenger = "haka-wohnen@t-online.com";
   mail($empfaenger, $sent_betreff, $sent_text, $sent_from);
   $isMsgSent = true;
 }

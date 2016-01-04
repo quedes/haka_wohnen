@@ -150,19 +150,19 @@ a {
 	padding:1%;
 }
 
-table {
+#msg_header {
   border-collapse: collapse;
 }
-td {
+#msg_header td {
   white-space:nowrap;
 }
-td span {
+#msg_header td span {
   font-weight: bold;
 }
-td:last-child input {
+#msg_header td:last-child input {
   width: 100%;
 }
-td:last-child {
+#msg_header td:last-child {
   width: 100%;
 }
 
@@ -183,7 +183,7 @@ td:last-child {
 }
 
 #kontakt_msg {
-  margin: 2em auto;
+  margin: 4em auto;
   width: 100%;
 }
 
@@ -192,4 +192,16 @@ td:last-child {
 }
 #button_div > input {
   padding: 0.5em 1em;
+}
+
+#angebote {
+  margin: 4em auto; 
+  border-top: solid 1px #CCCCCC;
+}
+.angebot {
+  border-bottom: solid 1px #CCCCCC;
+  padding: 1em 0em 2em 0em;
+}
+.angebot tr {
+  margin: 0.5em auto;
 }
