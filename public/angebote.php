@@ -24,6 +24,7 @@ class DBQuery {
     if ($conn->connect_error) {
       throw new Exception('Failed to connect to DB: '+$conn->connect_error);
     }
+    mysqli_set_charset($conn,"utf8");
 
     // init and prepare
     $stmt = $conn->stmt_init();
@@ -40,12 +41,12 @@ class DBQuery {
 }
 
 class Angebot {
-  private $data_names = array("Name","Fläche","Zimmer","Etage","Kaltmiete",
-                              "Warmmiete","Kaution","Frei ab","Fussboden","Heizungsart",
+  private $data_names = array("Name","Fläche","Zimmer","Etage","Miete",
+                              "Nebenkosten","Frei ab","Fussboden","Heizungsart",
                               "Energieeffizienz","Fenster","Bad","Parken","Zustand",
                               "Sonstiges","Lagenbeschreibung"
                             );
-  private $data_units = array("","qvm","","","€","€","","","","","","","","","","","");
+  private $data_units = array("","m²","","","€","€","","","","","","","","","","","");
   private $data;
 
   public function __construct($db_table_row) {
@@ -80,7 +81,7 @@ function queryAngebote() {
   try {
     $query = new DBQuery(getDBAccess(),
       // using * includes the ids, so we go for this ugly long query...
-      "SELECT name,flaeche,zimmer,etage,kaltmiete,warmmiete,kaution,frei_ab,fussboden,heizungsart,energieeffizienz,fenster,bad,parken,zustand,sonstiges,Lagen.beschreibung"
+      "SELECT name,flaeche,zimmer,etage,kaltmiete,nebenkosten,frei_ab,fussboden,heizungsart,energieeffizienz,fenster,bad,parken,zustand,sonstiges,Lagen.beschreibung"
       ." FROM Angebote INNER JOIN Lagen ON Angebote.lage=Lagen._id",
       "haka_wohnen"
     );

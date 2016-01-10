@@ -7,7 +7,7 @@ _id          INT NOT NULL UNIQUE,
 beschreibung TEXT,
 
 PRIMARY KEY(_id)
-);
+) CHARSET=utf8;
 
 
 CREATE TABLE IF NOT EXISTS Angebote (
@@ -17,8 +17,7 @@ flaeche          FLOAT,
 zimmer           INT unsigned,
 etage            TEXT,
 kaltmiete        FLOAT,
-warmmiete        FLOAT,
-kaution          TEXT,
+nebenkosten      FLOAT,
 frei_ab          TEXT,
 fussboden        TEXT,
 heizungsart      TEXT,
@@ -33,7 +32,7 @@ lage             INT NOT NULL,
 
 PRIMARY KEY(_id),
 FOREIGN KEY (lage) REFERENCES Lagen(_id)
-);
+) CHARSET=utf8;
 
 
 GRANT SELECT ON haka_wohnen.Angebote TO 'webserver'@'localhost';
