@@ -33,8 +33,14 @@ header("Content-Security-Policy: default-src 'none'; "
 
 	
 	<div id="seite">
-	
-	<?php require("main_haka_angebote_php.php"); ?>
+
+  <h2>Angebote</h2>
+
+  <p>Zur Zeit können wir folgende Wohnungen anbieten</p>
+
+  <div id="angebote">
+	  <?php require("angebote.php"); ?>
+  </div>
 	
 	</div>
 
