@@ -39,7 +39,7 @@ header("Content-Security-Policy: default-src 'none'; "
   <p>Zur Zeit können wir folgende Wohnungen anbieten</p>
 
   <div id="angebote">
-	  <?php require("angebote.php"); ?>
+	  <?php require("query_angebote.php"); ?>
   </div>
 	
 	</div>

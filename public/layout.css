@@ -205,3 +205,6 @@ a {
 .angebot tr {
   margin: 0.5em auto;
 }
+.angebot th {
+ vertical-align: top;
+}
