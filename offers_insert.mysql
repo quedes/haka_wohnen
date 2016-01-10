@@ -1,0 +1,112 @@
+USE haka_wohnen;
+
+INSERT INTO Lagen
+VALUES (
+ 0,
+ "Wenige Gehminuten in das Altstadtzentrum,\n Einkaufsmöglichkeiten, Stadtbad, Schulen, Kindergarten in unmittelbarer Nähe,\n Naherholungsgebiet Kranberg in der Nähe"
+);
+
+INSERT INTO Angebote
+VALUES (
+  1,
+  "4-Raumwohnung in Gotha, Große Fahnenstr. 20",
+  115,
+  4,
+  "EG links mit Terrasse",
+  840,
+  150,
+  "Erstbezug voraussichtlich zum 1. Juni 2016",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gästebad mit Dusche",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  2,
+  "4-Raumwohnung in Gotha, Große Fahnenstr. 20",
+  115,
+  4,
+  "EG rechts mit Terrasse",
+  840,
+  150,
+  "Erstbezug voraussichtlich zum 1. Juni 2016",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gästebad mit Dusche",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  3,
+  "4-Raumwohnung in Gotha, Große Fahnenstr. 20",
+  115,
+  4,
+  "OG rechts mit Balkon",
+  840,
+  150,
+  "Erstbezug voraussichtlich zum 1. Juni 2016",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gästebad mit Dusche",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  4,
+  "4-Raumwohnung in Gotha, Große Fahnenstr. 20",
+  115,
+  4,
+  "DG links mit Balkon",
+  840,
+  150,
+  "Erstbezug voraussichtlich zum 1. Juni 2016",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gästebad mit Dusche",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  5,
+  "4-Raumwohnung in Gotha, Große Fahnenstr. 20",
+  115,
+  4,
+  "DG rechts mit Balkon",
+  840,
+  150,
+  "Erstbezug voraussichtlich zum 1. Juni 2016",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gästebad mit Dusche",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
