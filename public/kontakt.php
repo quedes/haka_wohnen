@@ -46,7 +46,7 @@ if ($isValid_betreff && $isValid_from && $isValid_text) {
 </head>
   <title>Willkommen</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link href ="main_haka_layout.css" rel="stylesheet"/>
+  <link href ="layout.css" rel="stylesheet"/>
   <script type="text/javascript" src="form_validation.js" async></script>
   <script type="text/javascript" src="analytics.js" async></script>
 </head>
@@ -85,7 +85,7 @@ if ($isValid_betreff && $isValid_from && $isValid_text) {
 <h2>Kontakt</h2>
 <p>Gerne können Sie Anfragen an uns richten.</p>
 	
-<form id="kontakt_form" method="post" action="main_haka_kontakt.php" >
+<form id="kontakt_form" method="post" action="kontakt.php" >
   <table id="msg_header">
     <tr>
       <td><span>Ihre Email-Adresse: </span></td>
