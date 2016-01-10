@@ -10,7 +10,7 @@ header("Content-Security-Policy: default-src 'none'; "
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>Willkommen</title>
-	<link href ="main_haka_layout.css" rel="stylesheet"/>
+	<link href ="layout.css" rel="stylesheet"/>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <script type="text/javascript" src="analytics.js" async></script>
 </head>
