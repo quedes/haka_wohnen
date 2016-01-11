@@ -41,12 +41,12 @@ class DBQuery {
 }
 
 class Angebot {
-  private $data_names = array("Name","Fläche","Zimmer","Etage","Miete",
-                              "Nebenkosten","Frei ab","Fussboden","Heizungsart",
-                              "Energieeffizienz","Fenster","Bad","Parken","Zustand",
-                              "Sonstiges","Lagenbeschreibung"
+  private $data_names = array("Name","Fläche","Zimmer","Etage",
+                              "Zustand","Frei ab","Fussboden","Heizungsart",
+                              "Energieeffizienz","Fenster","Bad","Parken",
+                              "Sonstiges","Lagenbeschreibung","Miete","Nebenkosten"
                             );
-  private $data_units = array("","m²","","","€","€","","","","","","","","","","","");
+  private $data_units = array("","m²","","","","","","","","","","","","","","€","€");
   private $data;
 
   public function __construct($db_table_row) {
@@ -81,7 +81,7 @@ function queryAngebote() {
   try {
     $query = new DBQuery(getDBAccess(),
       // using * includes the ids, so we go for this ugly long query...
-      "SELECT name,flaeche,zimmer,etage,kaltmiete,nebenkosten,frei_ab,fussboden,heizungsart,energieeffizienz,fenster,bad,parken,zustand,sonstiges,Lagen.beschreibung"
+      "SELECT name,flaeche,zimmer,etage,zustand,frei_ab,fussboden,heizungsart,energieeffizienz,fenster,bad,parken,sonstiges,Lagen.beschreibung,kaltmiete,nebenkosten"
       ." FROM Angebote INNER JOIN Lagen ON Angebote.lage=Lagen._id",
       "haka_wohnen"
     );
