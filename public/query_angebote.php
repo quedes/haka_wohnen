@@ -44,7 +44,7 @@ class Angebot {
   private $data_names = array("Name","Fläche","Zimmer","Etage",
                               "Zustand","Frei ab","Fussboden","Heizungsart",
                               "Energieeffizienz","Fenster","Bad","Parken",
-                              "Sonstiges","Lagenbeschreibung","Miete","Nebenkosten"
+                              "Sonstiges","Lagebeschreibung","Miete","Nebenkosten"
                             );
   private $data_units = array("","m²","","","","","","","","","","","","","","€","€");
   private $data;
