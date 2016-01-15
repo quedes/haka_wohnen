@@ -36,7 +36,6 @@ header("Content-Security-Policy: default-src 'none'; "
 
   <h2>Angebote</h2>
 
-  <p>Der Grundriss aller Wohnungen ist gleich und kann <a href="grundriss.pdf">hier als PDF</a> eingesehen werden.</p>
   <p>Zur Zeit können wir folgende Wohnungen anbieten:</p>
 
   <div id="angebote">

@@ -69,6 +69,17 @@ class Angebot {
         $value = round($this->data[$i],2);
       } else {
         $value = htmlentities($this->data[$i]);
+        if ($this->data_names[$i] == "Etage") {
+          $pdf = "";
+          if (strpos($value,'EG') !== false) {
+            $pdf = "data/Erdgeschoss.pdf";
+          } else if (strpos($value,'OG') !== false) {
+            $pdf = "data/1.Obergeschoss.pdf";
+          } else if (strpos($value,'DG') !== false) {
+            $pdf = "data/2.Obergeschoss.pdf";
+          }
+          $value .= " (<a href=\"$pdf\" target=\"_blank\">Grundriss als PDF)</a>";
+        }
       }
       $result .= "<tr><th>".$this->data_names[$i].":</th><td>".$value." ".$this->data_units[$i]."</td></tr>".PHP_EOL;
     }
