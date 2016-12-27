@@ -1,0 +1,338 @@
+INSERT INTO Angebote
+VALUES (
+  1,
+  "Wohnpark Große Fahnenstraße - Julius-Bertuch-Straße/Zugang über Große Fahnenstraße 16",
+  88,
+  3,
+  "UG",
+  690,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  2,
+  "Wohnpark Große Fahnenstraße - Julius-Bertuch-Straße/Zugang über Große Fahnenstraße 16",
+  74,
+  2,
+  "UG",
+  580,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  3,
+  "Wohnpark Große Fahnenstraße - Julius-Bertuch-Straße/Zugang über Große Fahnenstraße 16",
+  114,
+  4,
+  "EG",
+  890,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC mit Dusche",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+
+INSERT INTO Angebote
+VALUES (
+  4,
+  "Wohnpark Große Fahnenstraße - Julius-Bertuch-Straße/Zugang über Große Fahnenstraße 16",
+  114,
+  3,
+  "OG 1",
+  890,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC mit Dusche",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  5,
+  "Wohnpark Große Fahnenstraße - Julius-Bertuch-Straße/Zugang über Große Fahnenstraße 16",
+  114,
+  4,
+  "OG 2",
+  890,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC mit Dusche",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  6,
+  "Wohnpark Große Fahnenstraße - Eisenacher Straße 9a",
+  110,
+  4,
+  "UG",
+  870,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  7,
+  "Wohnpark Große Fahnenstraße - Eisenacher Straße 9a",
+  94,
+  3,
+  "UG",
+  740,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  8,
+  "Wohnpark Große Fahnenstraße - Eisenacher Straße 9a",
+  103,
+  3,
+  "EG",
+  810,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+
+INSERT INTO Angebote
+VALUES (
+  9,
+  "Wohnpark Große Fahnenstraße - Eisenacher Straße 9a",
+  118,
+  4,
+  "EG",
+  920,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  10,
+  "Wohnpark Große Fahnenstraße - Eisenacher Straße 9a",
+  95,
+  3,
+  "EG",
+  740,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+
+INSERT INTO Angebote
+VALUES (
+  11,
+  "Wohnpark Große Fahnenstraße - Eisenacher Straße 9a",
+  103,
+  3,
+  "OG 1",
+  810,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  12,
+  "Wohnpark Große Fahnenstraße - Eisenacher Straße 9a",
+  118,
+  4,
+  "OG 1",
+  920,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  13,
+  "Wohnpark Große Fahnenstraße - Eisenacher Straße 9a",
+  101,
+  3,
+  "OG 1",
+  790,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  14,
+  "Wohnpark Große Fahnenstraße - Eisenacher Straße 9a",
+  103,
+  3,
+  "OG 2",
+  810,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  15,
+  "Wohnpark Große Fahnenstraße - Eisenacher Straße 9a",
+  118,
+  4,
+  "OG 2",
+  920,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
+
+INSERT INTO Angebote
+VALUES (
+  16,
+  "Wohnpark Große Fahnenstraße - Eisenacher Straße 9a",
+  101,
+  3,
+  "OG 2",
+  790,
+  150,
+  "Erstbezug Herbst 2017",
+  "hochwertiges Parkett (Eiche)",
+  "Zentralheizung, Fußbodenheizung",
+  "nahezu Passivhausstandard (KfW 40-Standard) dadurch geringere NK,\n Wärmepumpe kombiniert mit Photovoltaik-Anlage,\n kontrollierte Wohnraumbelüftung mit Wärmerückgewinnung",
+  "3-Scheiben-Isolierverglasung und Rolläden, elektrische Rolladenheber",
+  "Tageslichtbad mit Badewanne, Dusche,\n hochwertige Fliesen,\n Gäste WC",
+  "PKW Stellplatz für 25€",
+  "Neubau",
+  "Hauswirtschaftsraum, separater Abstellraum",
+  0
+);
